@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  alticci-sequence:
+    build:
+      dockerfile: Dockerfile.jvm
+    container_name: alticci-sequence
+    ports:
+      - 8080:8080
