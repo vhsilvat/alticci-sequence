@@ -2,9 +2,9 @@
 
 A sequência Alticci é definida da seguinte forma:
 
-n=0 => a(0) = 0
-n=1 => a(1) = 1
-n=2 => a(2) = 1
+n=0 => a(0) = 0\
+n=1 => a(1) = 1\
+n=2 => a(2) = 1\
 n>2 => a(n) = a(n-3) + a(n-2)
 
 Essa API retorna um valor da sequência Alticci conforme o index indicado.
